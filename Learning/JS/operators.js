@@ -3,7 +3,7 @@ let x = 5
 
 // * Arithmetic Operators
 console.log("Arithmetic Operators")
-console.log(y + x) // Sum
+console.log(y + x) // Addition
 console.log(y - x) // Subtract
 console.log(y * x) // Multiplication
 console.log(y / x) // Division
@@ -18,7 +18,7 @@ console.log(x)
 // * Assignment Operators
 console.log("\nAssignment Operators")
 let i = 5 // Equal to
-console.log(i += 5) // Sum and assign 
+console.log(i += 5) // Addition and assign 
 console.log(i -= 5) // Subtract and assign
 console.log(i *= 5) // Multiplication  and assign
 console.log(i /= 5) // Division and assign
