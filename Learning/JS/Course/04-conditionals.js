@@ -5,7 +5,7 @@ let armor = 12
 let damageEnemy = 7
 let damage
 
-// * If Statement *
+// * If Statement * //
 if (armor > damageEnemy) {
     console.log(`Hearth was reduced to ${health - (damageEnemy * (50 / 100))}`)
 } else if (armor < damageEnemy) {
@@ -14,7 +14,7 @@ if (armor > damageEnemy) {
     console.log(`Health was reduced to ${health - (damageEnemy * (25 / 100))}`)
 }
 
-// * Switch statement *
+// * Switch statement * //
 switch (weapon) {
     case "Sword B-":
         damage = 3
@@ -39,6 +39,6 @@ switch (weapon) {
 }
 console.log(`The ${weapon} has a damage of ${damage}`)
 
-// * Ternary Operators *
+// * Ternary Operators * //
 statusCharacter = health <= 0 ? `${character} is dead`: `${character} is alive`
 console.log(statusCharacter)

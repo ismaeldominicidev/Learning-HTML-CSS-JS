@@ -1,24 +1,24 @@
-// String
+// * String * //
 let isString = "text"
 
-// Number
+// * Number * //
 let isInteger = 25
 let isDecimal = 34.12
 
-// Boolean
+// * Boolean * //
 let isTrue = true
 let isFalse = false
 
-// Undefined
+// * Undefined * //
 let isUndefined
 
-// Null
+// * Null * //
 let isNull = null
 
-// Symbol
+// * Symbol * //
 let isSymbol = Symbol()
 
-// BigInt
+// * BigInt * //
 let isBigInteger = 89136128321873678436287462873n // Ends with "n" or with the built-in BigInt() function
 
 console.log(typeof(isString))

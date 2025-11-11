@@ -1,4 +1,4 @@
-// * String Writing *
+// * String Writing * //
 let userName = "Ismael Dominici M"
 let greeting = "Hey " + userName + ", how are you?" // concatenation
 console.log(greeting)
@@ -7,10 +7,10 @@ let stringMultiLine = `This is a
                             multi-line text`
 console.log(stringMultiLine)
     
-// * Length *
+// * Length * //
 console.log(greeting.length)
 
-// * String Indexing *
+// * String Indexing * //
 console.log(greeting[4]) // I
 console.log(greeting[0]) // H | First position
 console.log(greeting[35]) // Undefined | last character is 34
@@ -18,7 +18,7 @@ console.log(greeting[-1]) // undefined | in JS not used directly [-1]
 console.log(greeting.at(-1)) //| ? | So give the last character .at
 console.log(greeting[greeting.length - 1]) //| ? | Old way of getting the last character
 
-// * String Methods *
+// * String Methods * //
 console.log(greeting.toUpperCase()) // Convert to UpperCase.
 console.log(greeting.toLowerCase()) // Convert to LowerCase.
 console.log(greeting.indexOf("Ismael")) // 4 | Locates the position of a character, word or phrase. 

@@ -1,7 +1,7 @@
 let y = 5
 let x = 5
 
-// * Arithmetic Operators
+// * Arithmetic Operators * //
 console.log("Arithmetic Operators")
 console.log(y + x) // Addition
 console.log(y - x) // Subtract
@@ -15,7 +15,7 @@ console.log(y)
 x-- // Decrease
 console.log(x)
 
-// * Assignment Operators
+// * Assignment Operators * //
 console.log("\nAssignment Operators")
 let i = 5 // Equal to
 console.log(i += 5) // Addition and assign 
@@ -25,7 +25,7 @@ console.log(i /= 5) // Division and assign
 console.log(i **= 5) // Exponent and assign
 console.log(i %= 5) // Module and assign
 
-// * Comparison Operators
+// * Comparison Operators * //
 console.log("\nComparison Operators")
 x = 10, y = 5
 
@@ -39,7 +39,7 @@ console.log(x === "10", x === 10) // false & true | Equality by identity ===
 console.log(x != "10", x != 10, x != 5) // false & false & true | Distinct by value ==
 console.log(x !== "10", x !== 10, x !== 5) // true & false & true | Distinct by identity ===
 
-// * Logic Operators
+// * Logic Operators * //
 console.log("\nLogic Operators")
 x = 10, y = 5
 
@@ -80,7 +80,7 @@ console.log((true || false) && true) // true
 console.log((!false && true) && (true || false)) // true
 console.log(!(true && (false || true) && (true || (false && true)))) // false
 
-// * Ternary Operators *
+// * Ternary Operators * //
 console.log("\nTernary Operators")
 let isRaining = true
 let message
