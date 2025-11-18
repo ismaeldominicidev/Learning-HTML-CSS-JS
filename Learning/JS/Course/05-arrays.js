@@ -49,25 +49,25 @@ console.log("Data remove:", dataDeleted, "-", arrayNew)
 // * shift & unshift * //
 arrayNew.push(...dataDeleted) // push() inserts an array into another array; the spread operator "..." is used to insert its elements.
 dataDeleted = []
-arrayNew.unshift(10, 11)
+arrayNew.unshift(10, 11) // unshift() | adds elements to the beginning
 console.log(arrayNew)
 
-dataDeleted.push(arrayNew.shift())
+dataDeleted.push(arrayNew.shift()) // shift() | removes the first element and returns it
 dataDeleted.push(arrayNew.shift())
 console.log(dataDeleted)
 
 // * length * //
 arrayNew.unshift(10, 11)
 console.log(arrayNew)
-console.log(arrayNew.length)
+console.log(arrayNew.length) // length |Returns the number of elements in the array
 
 // * slice & splice* //
-arrayNew2 = arrayNew.slice(0, 3)
+arrayNew2 = arrayNew.slice(0, 3) // slice(start, end): copies a segment of the array without modifying the original
 console.log(arrayNew)
 console.log(arrayNew2)
 
 // * splice * //
-arrayNew.splice(3, 2)
+arrayNew.splice(3, 2) // splice(start, deleteCount, item1, item2...): removes and/or adds items to the array
 console.log(arrayNew)
 
 arrayNew = [10, 11, 12, "Ismael", true]

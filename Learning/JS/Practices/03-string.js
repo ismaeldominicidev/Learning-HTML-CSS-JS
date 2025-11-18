@@ -34,3 +34,9 @@ console.log(firstName == lastName)
 
 // 10. Comprueba si dos strings tienen la misma longitud
 console.log(firstName.length == lastName.length)
+
+console.log(lastName.length)
+
+const colors = ["red", "blue"];
+colors.push("green"); // Allowed — array elements can change
+console.log(colors); // red, ble, green

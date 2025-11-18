@@ -4,7 +4,7 @@ let greeting = "Hey " + userName + ", how are you?" // concatenation
 console.log(greeting)
 greeting = `Hey ${userName}, how are you?` // Interpolation //$ use ` inverted quotation mark
 let stringMultiLine = `This is a
-                            multi-line text`
+                        multi-line text`
 console.log(stringMultiLine)
     
 // * Length * //
